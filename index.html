@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Financial Freedom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Yellowtail&display=swap" rel="stylesheet">    </head>
+    <link rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/themes/light.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div>
+            <img src="sky.png" id="sky">
+            <div class="sun"></div>
+            <img src="lake.png" id="lake">
+            <img src="mountain1.png" id="mountain1">
+            <img src="mountain2.png" id="mountain2">
+            <img src="mountain3.png" id="mountain3">
+        </div>
+
+<!--use shoelace component for hamburger icon, button, and drawer-->
+        <sl-drawer label="Menu" class="drawer-overview">
+            <a href="#intro"> Know Your Why</a></sl-button><br>
+            <a href="#steps"> Steps</a></sl-button><br>
+            <a href="#investmenttypes"> Types of Investment</a></sl-button>
+
+            <sl-button slot="footer" type="primary">Close</sl-button>
+          </sl-drawer>
+          
+          <sl-button class="drawer-btn">
+            <sl-icon name="list"></sl-icon>
+          </sl-button>
+
+        <div class="title">
+            <p class="financialfreedom"><span> Achieve your</span> <br> Financial <br> Freedom</p>
+        </div>
+        <div class="button">
+            <sl-button> <a href="#intro"> Start your Journey Now!</a></sl-button>
+        </div>
+        
+        <!--cloud and binocular are in the same div for the css animation-->
+        <div id="floating">
+            <img src="cloud.png" id="cloud">
+            <img src="binocular.png" id="bino">
+        </div>
+
+    </div>
+
+    <div id="intro">
+        <div class="path">
+            <img src="pathway.png" width="100%">
+        </div>    
+
+        <div class="above">
+            <div class="happy">
+                <img src="happy-guy.png">
+            </div>
+            <div class="text">
+                <p class="title">Know Your Why</p>
+                <p class="para">Financial freedom means you have enough financial resources to pay for your living expenses
+                    and allow you to afford many of your life goals without having to work or otherwise commit
+                    any of your time or efforts to generating money. To achieve something big, it is very important
+                    to know 'Why'. By having a strong purpose, it helps you to go through any obstacles that will come
+                    in the future and will keep you going on the right track.</p>    
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="steps">
+            <div class="title2">
+                <p>Steps</p>
+            </div>
+
+            <div class="step1">
+                <img src="borrow.png" width="200px" id="debt">
+                <h2>Get Out of Debt</h2>
+            </div>
+            <div class="step2">
+                <img src="2live.png" width="200px" id="live">
+                <h2>Live Below your Means</h2>
+            </div>
+
+            <div class="step3">
+                <img src="3invest.png" width="200px" id="invest">
+                <h2>Invest</h2>
+            </div>
+
+            <div class="step4">
+                <img src="4asset.png" width="200px" id="asset">
+                <h2>Build Asset</h2>
+            </div>
+
+    </div>
+
+    <div id="investmenttypes">
+        <div class="title1">
+            <p>Types of Investment</p>
+        </div>   
+
+        <div class="svg">
+            <svg width="310" height="376" viewBox="0 0 621 752" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="coinguy">
+                <g id="arm">
+                <path id="Vector" d="M460.744 539.218C460.744 539.218 557.785 544.235 535.182 574.783C512.579 605.331 453.187 556.863 453.187 556.863L460.744 539.218Z" fill="#FFB8B8"/>
+                <path id="Vector_2" d="M281.915 248.251L301.668 253.189C301.668 253.189 313.19 287.756 321.42 319.03C329.65 350.304 346.11 444.126 346.11 444.126L473.72 533.559L458.5 567.607L288.5 500.607L250.641 351.95L281.915 248.251Z" fill="#575A89"/>
+                <path id="Vector_3" opacity="0.2" d="M260 361L319.339 472.694L357 520L297.891 496.842L260 361Z" fill="black"/>
+                </g>
+                <g id="body">
+                <path id="Vector_4" d="M153.527 149.491L148.589 221.915L211.137 305.862L242.411 226.853C242.411 226.853 214.429 208.747 230.889 170.889L153.527 149.491Z" fill="#F1A8A8"/>
+                <path id="Vector_5" d="M327.181 583.214C327.181 583.214 348.579 640.824 351.871 680.328C355.163 719.832 358.455 751.107 358.455 751.107H258.048L238.296 721.478V751.107H121.43C121.43 751.107 88.5098 644.116 101.678 630.948C114.846 617.78 239.942 561.816 239.942 561.816L327.181 583.214Z" fill="#2F2E41"/>
+                <path id="Vector_6" d="M199 202C233.544 202 259 159 263.81 123.155C263.81 88.6104 270.5 36.5 201.261 36.5C138.713 36.5 136.713 89.6104 136.713 124.155C141.5 160.5 164.456 202 199 202Z" fill="#FFB8B8"/>
+                <path id="Vector_7" d="M336.23 597.203C336.23 612.023 295.08 635.063 295.08 635.063V643.293L278.62 651.523L242.41 579.103L232.54 658.103C232.54 658.103 160.11 669.633 137.07 658.103C114.02 646.583 102.5 651.523 69.58 640.003C36.66 628.483 82.75 473.753 82.75 473.753L49.83 235.083L121.75 199.123L125.54 197.223L135.43 195.403L150.59 192.603L201.26 226.853L205.34 248.253L207.85 261.423L221.01 246.603L230.95 213.913L301.67 253.193L281.92 411.203C281.92 411.203 336.23 582.393 336.23 597.203Z" fill="#575A89"/>
+                <path id="Vector_8" d="M94.2708 648.231C94.2708 648.231 169.987 709.133 133.775 720.655C97.5628 732.178 77.8108 658.107 77.8108 658.107L94.2708 648.231Z" fill="#FFB8B8"/>
+                <path id="Vector_9" d="M66.2887 238.375L49.8286 235.083C49.8286 235.083 25.1385 248.251 23.4925 274.588C21.8465 300.924 0.448364 485.276 0.448364 485.276L69.5807 671.275L125.545 649.877L71.2267 475.4L112.377 323.968L66.2887 238.375Z" fill="#575A89"/>
+                <path id="Vector_10" d="M208.5 288.607C211.814 288.607 214.5 285.92 214.5 282.607C214.5 279.293 211.814 276.607 208.5 276.607C205.186 276.607 202.5 279.293 202.5 282.607C202.5 285.92 205.186 288.607 208.5 288.607Z" fill="#2F2E41"/>
+                <path id="Vector_11" d="M208.5 327.607C211.814 327.607 214.5 324.92 214.5 321.607C214.5 318.293 211.814 315.607 208.5 315.607C205.186 315.607 202.5 318.293 202.5 321.607C202.5 324.92 205.186 327.607 208.5 327.607Z" fill="#2F2E41"/>
+                <path id="Vector_12" d="M209.5 364.607C212.814 364.607 215.5 361.92 215.5 358.607C215.5 355.293 212.814 352.607 209.5 352.607C206.186 352.607 203.5 355.293 203.5 358.607C203.5 361.92 206.186 364.607 209.5 364.607Z" fill="#2F2E41"/>
+                <path id="Vector_13" d="M125 70.0133L129.651 67.0412C122.589 91.3271 136.098 118 136.098 118L140.7 95.2691L150.333 94.261L161.43 96.2773C161.43 96.2773 176.819 99.5441 193.714 98.2935C207.334 97.2854 225.47 95.8011 232.34 89.7765C235.381 87.1106 242.738 80.6018 242.738 80.6018C242.738 87.6016 253.742 95.2691 253.742 95.2691L256.264 109.959C256.264 114.626 264.534 118 264.534 118C264.534 118 267.983 102.612 268.786 96.2773C274 77.5774 274 70.0133 274 70.0133V58.9761L268.786 53.2914L261.308 30.7482C253.267 13.695 240.566 29.7905 229.417 16.9117C208.208 -7.58784 184.878 1.74526 184.878 1.74526L186.352 7.20446C125 12.6017 125 70.0133 125 70.0133Z" fill="#2F2E41"/>
+                </g>
+                <g id="coin">
+                <path id="Vector_14" d="M520.398 501.545C575.626 501.545 620.398 456.774 620.398 401.545C620.398 346.317 575.626 301.545 520.398 301.545C465.169 301.545 420.398 346.317 420.398 401.545C420.398 456.774 465.169 501.545 520.398 501.545Z" fill="#46486E"/>
+                <path id="Vector_15" opacity="0.1" d="M520.398 487.545C567.894 487.545 606.398 449.042 606.398 401.545C606.398 354.049 567.894 315.545 520.398 315.545C472.901 315.545 434.398 354.049 434.398 401.545C434.398 449.042 472.901 487.545 520.398 487.545Z" fill="#EFD0E1"/>
+                <path id="Vector_16" d="M516.277 452.293V439.776C509.949 439.652 503.404 437.421 499.586 434.323L502.204 426.02C506.741 429.42 512.243 431.286 517.913 431.348C525.659 431.348 530.895 426.267 530.895 419.203C530.895 412.387 526.64 408.173 518.568 404.455C507.44 399.498 500.567 393.797 500.567 383.015C500.567 372.729 507.004 364.921 517.041 363.062V350.545H523.804V362.567C528.848 362.635 533.767 364.14 537.986 366.904L535.259 375.084C531.212 372.314 526.417 370.844 521.513 370.87C513.113 370.87 509.949 376.57 509.949 381.528C509.949 387.972 513.986 391.194 523.477 395.656C534.713 400.861 540.387 407.306 540.387 418.335C540.387 428.126 534.386 437.297 523.15 439.403V452.293H516.277Z" fill="#F48585"/>
+                </g>
+                </g>
+                </svg>
+            </div>
+
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide">
+                     <h1 class="IThead">Bonds</h1>
+                      <img src="bond.png"></div>
+                <div class="swiper-slide">
+                     <h1 class="IThead">Stock Market</h1>
+                     <img src="stock.png"></div>
+                <div class="swiper-slide">
+                     <h1 class="IThead">Real Estate</h1>
+                    <img src="RE.png"></div>
+            </div>
+
+            <!-- pagination -->
+                <div class="swiper-pagination"></div>
+  
+            <!-- navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
+
+    </div>
+
+    
+    </div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/shoelace.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+
+</html>
